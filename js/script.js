@@ -1,6 +1,6 @@
-let songs = [$(".songName").val()];
-let songs2 = ["Take me Road","Old Town Home",];
+let songs = ["Take me Road","Old Town Home",];
 $(".nameButton").click(function() {
-  songs2.push("triangle");
-  console.log(songs2);
+  songs.push($(".songName").val());
+  console.log(songs);
+  $(".papaya").append(songs[0] + "<br>" + songs[1] + "<br>" + songs[2] + "<br>" + songs[3] + "<br>");
 });
