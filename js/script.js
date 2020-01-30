@@ -1,6 +1,14 @@
-let songs = ["Take me Road","Old Town Home",];
+let songs = [{
+  songName: "Bad Apple",
+  songArtist: "Jebidiah",
+  songLength: "56789",
+  imageLink: "",
+  songLink: ""
+}]
 $(".nameButton").click(function() {
-  songs.push($(".songName").val());
-  console.log(songs);
-  $(".papaya").append(songs[0] + "<br>" + songs[1] + "<br>" + songs[2] + "<br>" + songs[3] + "<br>");
+//  songs.push($(".songName").val());
+//  console.log(songs);
+//  $(".papaya").empty();
+//  $(".papaya").append(songs + "<br>");
 });
+// song artist, song length, image, and link
